@@ -318,8 +318,8 @@ git push origin feature/your-feature-name
 
 ## 👤 Author
 
-**Dilip Meghwal**  
-🌐 [dilipmeghwal.in](https://dilipmeghwal.in) · 🐙 [GitHub](https://github.com/DJ-InfinityCoder) · 💼 [LinkedIn](https://www.linkedin.com/in/dilipmeghwal13/)
+**Tushar Avhad**  
+🐙 [GitHub](https://github.com/Tushar260603) · 💼 [LinkedIn](https://www.linkedin.com/in/tushar-avhad/)
 
 ---
 
@@ -330,5 +330,5 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 ---
 
 <div align="center">
-  <sub>Built with ❤️ using FastAPI · LangGraph · Pinecone · Google Gemini · Next.js</sub>
+  <sub>Built with ❤️ by Tushar Avhad · FastAPI · LangGraph · Pinecone · Google Gemini · Next.js</sub>
 </div>
