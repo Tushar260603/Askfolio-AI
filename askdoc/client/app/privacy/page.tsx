@@ -88,12 +88,12 @@ export default function PrivacyPolicy() {
                             4. Contact Us
                         </h2>
                         <p>
-                            If you have questions, concerns, or requests regarding this Privacy Policy or your data, please contact us directly at:
+                            If you have questions, concerns, or requests regarding this Privacy Policy or your data, please open an issue on our GitHub repository:
                         </p>
                         <p className="pt-1">
-                            <a href="mailto:contact@dilip.website" className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-[var(--bg-hover)] border border-[var(--border-color)] text-[var(--accent-color)] hover:underline font-bold text-sm">
+                            <a href="https://github.com/Tushar260603/Askfolio-AI/issues" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-[var(--bg-hover)] border border-[var(--border-color)] text-[var(--accent-color)] hover:underline font-bold text-sm">
                                 <Mail className="w-4 h-4" />
-                                contact@dilip.website
+                                GitHub Issues
                             </a>
                         </p>
                     </section>
@@ -103,7 +103,7 @@ export default function PrivacyPolicy() {
             {/* Footer */}
             <footer className="border-t border-[var(--border-color)] bg-[var(--bg-card)] mt-12">
                 <div className="max-w-4xl mx-auto px-6 py-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-[var(--text-muted)] font-medium">
-                    <p>© 2026 AskDoc. Built with ❤️ by Dilip Meghwal.</p>
+                    <p>© 2026 AskDoc. Built with ❤️ by Tushar Avhad.</p>
                     <div className="flex gap-6">
                         <Link href="/terms" className="hover:text-[var(--text-main)] transition-colors">Terms of Service</Link>
                         <Link href="/docs" className="hover:text-[var(--text-main)] transition-colors">Documentation</Link>

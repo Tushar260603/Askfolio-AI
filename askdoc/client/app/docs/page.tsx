@@ -63,8 +63,8 @@ export default function Documentation() {
                             </h3>
                             <pre className="bg-[var(--bg-hover)] p-4 rounded-xl overflow-x-auto text-xs sm:text-sm text-[var(--text-main)] font-mono border border-[var(--border-color)]">
 {`# 1. Clone the repository
-git clone https://github.com/DJ-InfinityCoder/RAG.git
-cd RAG
+git clone https://github.com/Tushar260603/Askfolio-AI.git
+cd Askfolio-AI
 
 # 2. Setup & Start Backend (FastAPI + LangGraph)
 cd RagBackend
@@ -164,7 +164,7 @@ npm run dev`}
                                             <tr><td className="p-2.5 font-mono text-[var(--text-main)] font-bold">GOOGLE_API_KEY</td><td className="p-2.5">Google Gemini API key for chat synthesis and generation</td></tr>
                                             <tr><td className="p-2.5 font-mono text-[var(--text-main)] font-bold">PINECONE_API_KEY</td><td className="p-2.5">Pinecone vector database API key</td></tr>
                                             <tr><td className="p-2.5 font-mono text-[var(--text-main)] font-bold">DATABASE_URL</td><td className="p-2.5">PostgreSQL connection string (Supabase)</td></tr>
-                                            <tr><td className="p-2.5 font-mono text-[var(--text-main)] font-bold">ALLOWED_ORIGINS</td><td className="p-2.5">Comma-separated CORS origins (e.g. <code className="font-mono text-xs">https://askdoc.dilip.website</code>)</td></tr>
+                                            <tr><td className="p-2.5 font-mono text-[var(--text-main)] font-bold">ALLOWED_ORIGINS</td><td className="p-2.5">Comma-separated CORS origins (e.g. <code className="font-mono text-xs">http://localhost:3000</code>)</td></tr>
                                             <tr><td className="p-2.5 font-mono text-[var(--text-main)] font-bold">GEMINI_MODEL</td><td className="p-2.5">Active Gemini model (default: <code className="font-mono text-xs">gemini-3.6-flash</code>)</td></tr>
                                         </tbody>
                                     </table>
@@ -192,15 +192,15 @@ npm run dev`}
                     <section id="support" className="scroll-mt-24 space-y-4">
                         <h2 className="text-3xl font-extrabold text-[var(--text-main)] flex items-center gap-3">
                             <Mail className="w-7 h-7 text-[var(--accent-color)]" />
-                            Support & Contact
+                            Support & Inquiries
                         </h2>
                         <p className="text-[var(--text-muted)] font-medium">
-                            Have questions, suggestions, or need help deploying AskDoc in your organization?
+                            Have questions, suggestions, or need help with AskDoc? Feel free to open an issue:
                         </p>
                         <div>
-                            <a href="mailto:contact@dilip.website" className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-[var(--bg-card)] border border-[var(--border-color)] text-[var(--accent-color)] hover:bg-[var(--bg-hover)] font-bold text-sm transition-all">
+                            <a href="https://github.com/Tushar260603/Askfolio-AI/issues" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-[var(--bg-card)] border border-[var(--border-color)] text-[var(--accent-color)] hover:bg-[var(--bg-hover)] font-bold text-sm transition-all">
                                 <Mail className="w-4 h-4" />
-                                contact@dilip.website
+                                GitHub Issues
                             </a>
                         </div>
                     </section>
@@ -210,7 +210,7 @@ npm run dev`}
             {/* Footer */}
             <footer className="border-t border-[var(--border-color)] bg-[var(--bg-card)] mt-12">
                 <div className="max-w-7xl mx-auto px-6 py-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-[var(--text-muted)] font-medium">
-                    <p>© 2026 AskDoc. Built with ❤️ by Dilip Meghwal.</p>
+                    <p>© 2026 AskDoc. Built with ❤️ by Tushar Avhad.</p>
                     <div className="flex gap-6">
                         <Link href="/privacy" className="hover:text-[var(--text-main)] transition-colors">Privacy Policy</Link>
                         <Link href="/terms" className="hover:text-[var(--text-main)] transition-colors">Terms of Service</Link>

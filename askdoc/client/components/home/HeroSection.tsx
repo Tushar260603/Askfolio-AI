@@ -145,7 +145,7 @@ export function HeroSection() {
                         <ArrowRight className="w-4 h-4" />
                     </Link>
                     <a
-                        href="https://github.com/DJ-InfinityCoder/RAG"
+                        href="https://github.com/Tushar260603/Askfolio-AI"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="w-full sm:w-auto px-8 py-3.5 rounded-full border border-[var(--border-color)] bg-[var(--bg-card)] text-[var(--text-main)] font-semibold text-base hover:bg-[var(--bg-hover)] transition-all flex items-center justify-center gap-2 hover:scale-[1.02] active:scale-[0.98]"

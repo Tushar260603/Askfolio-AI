@@ -6,7 +6,6 @@
 
 An enterprise-grade **Retrieval-Augmented Generation (RAG)** platform that lets you upload any document and have an intelligent AI conversation with it — powered by **Google Gemini**, **Pinecone**, and **LangGraph**.
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-AskDoc-indigo?style=for-the-badge&logo=vercel)](https://askdoc.vercel.app)
 [![Backend](https://img.shields.io/badge/Backend-FastAPI-009688?style=for-the-badge&logo=fastapi)](./askdoc/server)
 [![Frontend](https://img.shields.io/badge/Frontend-Next.js%2016-black?style=for-the-badge&logo=next.js)](./askdoc/client)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)

@@ -288,7 +288,7 @@ export default function EvaluationPage() {
             {/* Footer */}
             <footer className="border-t border-[var(--border-color)] bg-[var(--bg-card)] mt-12">
                 <div className="max-w-7xl mx-auto px-6 py-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-[var(--text-muted)] font-medium">
-                    <p>© 2026 AskDoc. Built with ❤️ by Dilip Meghwal.</p>
+                    <p>© 2026 AskDoc. Built with ❤️ by Tushar Avhad.</p>
                     <div className="flex gap-6">
                         <Link href="/privacy" className="hover:text-[var(--text-main)] transition-colors">Privacy Policy</Link>
                         <Link href="/terms" className="hover:text-[var(--text-main)] transition-colors">Terms of Service</Link>

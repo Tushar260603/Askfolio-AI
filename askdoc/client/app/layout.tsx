@@ -18,16 +18,15 @@ const cormorantGaramond = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://askdoc.dilip.website"),
   title: {
     default: "AskDoc | Enterprise-Grade Document AI Chat",
     template: "%s | AskDoc",
   },
   description: "Advanced Retrieval-Augmented Generation (RAG) document intelligence platform powered by Google Gemini and Pinecone. Upload documents and chat with your data instantly.",
   keywords: ["AskDoc", "RAG", "AI", "Chat", "Document Analysis", "PDF Chat", "Gemini", "Pinecone", "Vector Database", "Next.js", "FastAPI"],
-  authors: [{ name: "Dilip Meghwal", url: "https://dilipmeghwal.in" }],
-  creator: "Dilip Meghwal",
-  publisher: "Dilip Meghwal",
+  authors: [{ name: "Tushar Avhad", url: "https://github.com/Tushar260603" }],
+  creator: "Tushar Avhad",
+  publisher: "Tushar Avhad",
   robots: {
     index: true,
     follow: true,
@@ -42,7 +41,6 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://askdoc.dilip.website",
     title: "AskDoc | Enterprise-Grade Document AI Chat",
     description: "Chat with your documents using advanced AI. Powered by Google Gemini and Pinecone vector search.",
     siteName: "AskDoc",
@@ -59,8 +57,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "AskDoc | Enterprise-Grade Document AI Chat",
     description: "Chat with your documents using advanced AI. Powered by Google Gemini and Pinecone vector search.",
-    images: ["/djraglogo.png"],
-    creator: "@dilip_maurya",
+    images: ["/logo.png"],
   },
   icons: {
     icon: "/icon.png",

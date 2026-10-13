@@ -11,7 +11,7 @@
 
 **Production-grade, agentic Retrieval-Augmented Generation (RAG) platform combining an interactive Next.js 16 user interface with a 10-node cyclic LangGraph FastAPI backend. Features structure-aware document parsing, Reciprocal Rank Fusion (RRF), FlashRank neural reranking, Bring-Your-Own-Key (BYOK) Gemini execution, and automated LLM-as-a-judge evaluation.**
 
-[Live Web Application](https://askdoc.dilip.website) • [GitHub Monorepo](https://github.com/DJ-InfinityCoder/RAG) • [Author Portfolio](https://dilipmeghwal.in)
+[Live Web Application]() • [GitHub Monorepo](https://github.com/Tushar260603/Askfolio-AI) • [Author Portfolio]()
 
 </div>
 
@@ -332,14 +332,12 @@ npm run start -p 3000
 
 ## Author & Credits
 
-**Dilip Meghwal**
-- **Website**: [https://dilipmeghwal.in](https://dilipmeghwal.in)
-- **LinkedIn**: [linkedin.com/in/dilipmeghwal13](https://www.linkedin.com/in/dilipmeghwal13/)
-- **GitHub**: [@DJ-InfinityCoder](https://github.com/DJ-InfinityCoder)
-- **Contact**: [contact@dilip.website](mailto:contact@dilip.website)
+**Tushar Avhad**
+- **LinkedIn**: [linkedin.com/in/tushar-avhad-845367438](https://www.linkedin.com/in/tushar-avhad-845367438/)
+- **GitHub**: [@Tushar260603](https://github.com/Tushar260603)
 
 ---
 
 <div align="center">
-  <sub>Built by Dilip Meghwal • AskDoc Enterprise RAG Platform</sub>
+  <sub>Built by Tushar Avhad • AskDoc Enterprise RAG Platform</sub>
 </div>

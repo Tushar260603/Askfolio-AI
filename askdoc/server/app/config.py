@@ -23,7 +23,7 @@ def get_logger(name: str) -> logging.Logger:
 # ─── API Keys ──────────────────────────────────────────────────────────────────
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
-PINECONE_INDEX_NAME = os.getenv("PINECONE_INDEX_NAME", "djrag")
+PINECONE_INDEX_NAME = os.getenv("PINECONE_INDEX_NAME", "askdoc")
 
 # ─── Database ──────────────────────────────────────────────────────────────────
 DATABASE_URL = os.getenv("DATABASE_URL")
@@ -31,7 +31,7 @@ DATABASE_URL = os.getenv("DATABASE_URL")
 # ─── Supabase ──────────────────────────────────────────────────────────────────
 SUPABASE_URL = os.getenv(
     "SUPABASE_URL",
-    os.getenv("NEXT_PUBLIC_SUPABASE_URL", "https://dklgzlkrykmbwkudkexl.supabase.co")
+    os.getenv("NEXT_PUBLIC_SUPABASE_URL", "")
 ).rstrip("/")
 SUPABASE_KEY = os.getenv(
     "SUPABASE_SERVICE_ROLE_KEY",
@@ -48,7 +48,7 @@ GEMINI_OUTPUT_COST_PER_1M = float(os.getenv("GEMINI_OUTPUT_COST_PER_1M", "0.30")
 # ─── Application Settings ─────────────────────────────────────────────────────
 ALLOWED_ORIGINS = [
     origin.strip()
-    for origin in os.getenv("ALLOWED_ORIGINS", "http://localhost:3000,http://127.0.0.1:3000,https://askdoc.dilip.website,https://www.askdoc.dilip.website,https://askdoc-backend.vercel.app").split(",")
+    for origin in os.getenv("ALLOWED_ORIGINS", "http://localhost:3000,http://127.0.0.1:3000").split(",")
     if origin.strip()
 ]
 

@@ -11,7 +11,7 @@
 
 **High-performance, agentic Retrieval-Augmented Generation (RAG) backend orchestrating multi-format document ingestion, dense vector search, Reciprocal Rank Fusion, FlashRank reranking, and dynamic Bring-Your-Own-Key (BYOK) LLM execution.**
 
-[Live Web Application](https://askdoc.dilip.website) • [GitHub Repository](https://github.com/DJ-InfinityCoder/RAG) • [Author Portfolio](https://dilipmeghwal.in)
+[Live Web Application]() • [GitHub Repository](https://github.com/Tushar260603/Askfolio-AI) • [Author Portfolio]()
 
 </div>
 
@@ -335,7 +335,7 @@ GEMINI_MODEL=gemini-3.6-flash
 
 # Pinecone Vector Database
 PINECONE_API_KEY=your_pinecone_api_key
-PINECONE_INDEX_NAME=djrag
+PINECONE_INDEX_NAME=askdoc
 
 # Supabase PostgreSQL (IPv4 Session Pooler recommended)
 DATABASE_URL=postgresql://postgres.xxx:password@aws-0-ap-southeast-2.pooler.supabase.com:5432/postgres
@@ -345,7 +345,7 @@ SUPABASE_URL=https://your-project.supabase.co
 SUPABASE_KEY=your_supabase_anon_or_service_key
 
 # Security & CORS
-ALLOWED_ORIGINS=http://localhost:3000,https://askdoc.dilip.website
+ALLOWED_ORIGINS=http://localhost:3000,
 RATE_LIMIT_RPM=60
 MAX_UPLOAD_MB=25
 
@@ -366,7 +366,7 @@ LANGCHAIN_PROJECT=askdoc-backend
 
 ### 1. Clone & Set Up Virtual Environment
 ```bash
-git clone https://github.com/DJ-InfinityCoder/RagBackend.git
+git clone https://github.com/Tushar260603/Askfolio-AI.git
 cd RagBackend
 
 python -m venv venv
@@ -437,14 +437,12 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
 
 ## Author & Credits
 
-**Dilip Meghwal**
-- **Website**: [https://dilipmeghwal.in](https://dilipmeghwal.in)
-- **LinkedIn**: [linkedin.com/in/dilipmeghwal13](https://www.linkedin.com/in/dilipmeghwal13/)
-- **GitHub**: [@DJ-InfinityCoder](https://github.com/DJ-InfinityCoder)
-- **Contact**: [contact@dilip.website](mailto:contact@dilip.website)
+**Tushar Avhad**
+- **LinkedIn**: [linkedin.com/in/tushar-avhad-845367438](https://www.linkedin.com/in/tushar-avhad-845367438/)
+- **GitHub**: [@Tushar260603](https://github.com/Tushar260603)
 
 ---
 
 <div align="center">
-  <sub>Built by Dilip Meghwal • AskDoc Enterprise RAG Platform</sub>
+  <sub>Built by Tushar Avhad • AskDoc Enterprise RAG Platform</sub>
 </div>

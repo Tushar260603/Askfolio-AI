@@ -11,7 +11,7 @@
 
 **High-performance, modern Next.js user interface for the AskDoc Document Intelligence platform. Features real-time Server-Sent Events (SSE) streaming, structure-aware document visualization, interactive citation inspection, dynamic Bring-Your-Own-Key (BYOK) Gemini configuration, and evaluation dashboards.**
 
-[Live Web Application](https://askdoc.dilip.website) • [GitHub Repository](https://github.com/DJ-InfinityCoder/RAG) • [Author Portfolio](https://dilipmeghwal.in)
+[Live Web Application]() • [GitHub Repository](https://github.com/Tushar260603/Askfolio-AI) • [Author Portfolio]()
 
 </div>
 
@@ -73,7 +73,7 @@ It connects to the FastAPI backend via authenticated REST endpoints and real-tim
        │     └── Supabase Auth Listener (Session & JWT Synchronization)
        │
        └── Backend Integration
-             ├── REST API (FastAPI @ https://askdoc.dilip.website/api)
+             ├── REST API (FastAPI @ /api)
              └── BYOK Headers (X-Gemini-API-Key, X-Gemini-Model)
 ```
 
@@ -207,7 +207,7 @@ Create a `.env.local` file in `RagFrontend/`:
 # Backend API Base URL
 NEXT_PUBLIC_API_BASE_URL=http://localhost:8000
 # For Production:
-# NEXT_PUBLIC_API_BASE_URL=https://askdoc.dilip.website
+# NEXT_PUBLIC_API_BASE_URL=
 
 # Supabase Auth & Storage Configuration
 NEXT_PUBLIC_SUPABASE_URL=https://your-project.supabase.co
@@ -224,7 +224,7 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 
 ### Installation
 ```bash
-git clone https://github.com/DJ-InfinityCoder/RAG.git
+git clone https://github.com/Tushar260603/Askfolio-AI.git
 cd RAG/RagFrontend
 
 npm install
@@ -254,14 +254,12 @@ npm run start
 
 ## Author & Credits
 
-**Dilip Meghwal**
-- **Website**: [https://dilipmeghwal.in](https://dilipmeghwal.in)
-- **LinkedIn**: [linkedin.com/in/dilipmeghwal13](https://www.linkedin.com/in/dilipmeghwal13/)
-- **GitHub**: [@DJ-InfinityCoder](https://github.com/DJ-InfinityCoder)
-- **Contact**: [contact@dilip.website](mailto:contact@dilip.website)
+**Tushar Avhad**
+- **LinkedIn**: [linkedin.com/in/tushar-avhad-845367438](https://www.linkedin.com/in/tushar-avhad-845367438/)
+- **GitHub**: [@Tushar260603](https://github.com/Tushar260603)
 
 ---
 
 <div align="center">
-  <sub>Built by Dilip Meghwal • AskDoc Enterprise RAG Platform</sub>
+  <sub>Built by Tushar Avhad • AskDoc Enterprise RAG Platform</sub>
 </div>
