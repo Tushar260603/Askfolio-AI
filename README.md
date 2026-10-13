@@ -319,7 +319,7 @@ git push origin feature/your-feature-name
 ## 👤 Author
 
 **Tushar Avhad**  
-🐙 [GitHub](https://github.com/Tushar260603) · 💼 [LinkedIn](https://www.linkedin.com/in/tushar-avhad/)
+🐙 [GitHub](https://github.com/Tushar260603) · 💼 [LinkedIn](https://www.linkedin.com/in/tushar-avhad-845367438)
 
 ---
 
